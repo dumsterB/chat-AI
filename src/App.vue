@@ -1,10 +1,7 @@
 <template>
-  <div>
-  Hello i am widget-AI
-  </div>
+    <widget></widget>
 </template>
-<script setup lang="ts">
-</script>
-<style scoped>
 
-</style>
+<script setup lang="ts">
+import widget from './components/widget.vue'
+</script>
